@@ -1,12 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@700&display=swap');
 
-font-family: 'ABeeZee', sans-serif;
-font-family: 'Montserrat', sans-serif;
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-color: rgb(20, 18, 18);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 10px;
+}
+ /*   font-family: 'Montserrat', sans-serif; */
+
 
 
 .section-nav{
     width: 25%;
+    border-right: 1px solid rgba(255, 255, 255, 0.678);
+    height: 100vh;
+    position: fixed;
 }
 .section-main{
     width: 50%;
@@ -21,6 +32,95 @@ font-family: 'Montserrat', sans-serif;
     width: 50px;
     border-radius: 100%;
     display: block;
-    margin: auto;
+    margin-left: 15%;
     margin-top: 10px;
+}
+
+.vertical-nav >ul{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.vertical-nav >ul >li >div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    justify-content: start;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.vertical-nav >ul >li >div >a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.vertical-nav >ul >li >div >svg{
+    width: 25px;
+    color: white;
+
+}
+
+.blue-button{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    margin: auto;
+}
+.footer-nav{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.footer-nav >div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-nav >div >svg{
+    width: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+    height: 40px;
+}
+
+.footer-nav >div >div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 4px;
+}
+.footer-nav >div >div >h3{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.footer-nav >div >div >p{
+    margin: 0;
+    color: rgb(155, 155, 155);
+    font-size: 14px;
 }
