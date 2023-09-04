@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@700&display=swap');
+
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+
+.section-nav{
+    width: 25%;
+}
+.section-main{
+    width: 50%;
+}
+.section-noticias{
+    width: 25%;
+}
+
+/*-------- SECTION NAV -------------------------------------------------------------- */
+
+#logo{
+    width: 50px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
